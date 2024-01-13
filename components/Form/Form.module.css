@@ -1,0 +1,47 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    margin-top: 2rem;
+}
+
+.fields {
+    width: 16rem;
+    height: 2em;
+    border: 1px solid var(--bordergrey);
+    background-color: var(--fieldgrey);
+    border-radius: 3px;
+}
+
+.fields::placeholder {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.fields input {
+    color: red;
+}
+
+.loginButton {
+    background-color: var(--lightblue);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 16.5rem;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.loginButton:hover{
+    background-color: var(--hoverblue);
+    cursor: pointer;
+}

@@ -16,6 +16,7 @@ export default function Footer() {
                     <li><Link href="/">Terms</Link></li>
                     <li><Link href="/">Locations</Link></li>
                     <li><Link href="/">Instaram Lite</Link></li>
+                    <li><Link href="/">Threads</Link></li>
                     <li><Link href="/">Contact Uploading & Non-Users</Link></li>
                     <li><Link href="/">Meta Verified</Link></li>
                 </ul>

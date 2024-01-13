@@ -17,45 +17,44 @@ export default function Home() {
 
       <main className={`${styles.main}`}>
         <div className={styles.layout}> 
-        <div className={styles.demo}>
-          <Image src={'/images/demo.png'} alt="instagram demo on phone" width={395} height={611} priority/>
-        </div>
-        <div>
-        <div className={styles.loginBox}>
-            <div className={styles.logo}>
-              <Button logoImgSrc='/images/logo-text.png'/>
-            </div>
-            <Form/>
-            <div>
-                <h5 className={styles.h5Line}><span>OR</span></h5>
-            </div>
+          <div className={styles.demo}>
+            <Image src={'/images/demo.png'} alt="instagram demo on phone" width={395} height={611} priority/>
+          </div>
+          <div>
+            <div className={styles.loginContainer}>
+                <div className={styles.logo}>
+                  <Button logoImgSrc='/images/logo-text.png'/>
+                </div>
+                <Form/>
+                <div>
+                    <h5 className={styles.h5Line}><span>OR</span></h5>
+                </div>
 
-            <Button imageSrc='/images/facebook.png'
-                title="Log in with Facebook"/>
-            <br/>
-            <Button title="Forgot Password?" 
-                        fontSize='12px' fontWeight='normal'/>
+                <Button imageSrc='/images/facebook.png'
+                    title="Log in with Facebook"/>
+                <br/>
+                <Button title="Forgot Password?" 
+                            fontSize='12px' fontWeight='normal'/>
+            </div>
+            <div className={styles.signUpContainer}>
+              Don't have an account? 
+              <Button title="Sign Up" 
+                  textColor='var(--lightblue)'/>
+            </div>
+            <div className={styles.downloadApp}>
+                <div>Get the app.</div>
+            </div>
+            <div className={styles.downloadButtons}>
+              <Button className={styles.appleButton}
+                  bgImgSrc='/images/apple.png'/>
+              <Button className={styles.googleButton}
+                  bgImgSrc='/images/google.png'/>
+            </div>
+          </div>
         </div>
-        <div className={styles.signUpBox}>
-          Don't have an account? 
-          <Button title="Sign Up" 
-              textColor='var(--lightblue)'/>
-        </div>
-
-        <div className={styles.downloadApp}>
-            <div>Get the app.</div>
-        </div>
-        <div className={styles.downloadButtons}>
-          <Button className={styles.appleButton}
-              bgImgSrc='/images/apple.png'/>
-          <Button className={styles.googleButton}
-              bgImgSrc='/images/google.png'/>
-        </div>
-        </div>
-      </div>
       </main>
-      <div className={styles.footerArea}>
-       <Footer/>
+      <div className={styles.footerContainer}>
+          <Footer/>
       </div>
     </>
   )

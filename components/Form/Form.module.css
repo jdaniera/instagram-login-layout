@@ -25,10 +25,6 @@
     padding: 5px;
 }
 
-.fields input {
-    color: red;
-}
-
 .loginButton {
     background-color: var(--lightblue);
     color: white;

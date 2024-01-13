@@ -34,7 +34,7 @@ export default function Home() {
                     title="Log in with Facebook"/>
                 <br/>
                 <Button title="Forgot Password?" 
-                            fontSize='12px' fontWeight='normal'/>
+                    fontSize='12px' fontWeight='normal'/>
             </div>
             <div className={styles.signUpContainer}>
               Don't have an account? 
